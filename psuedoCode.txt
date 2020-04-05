@@ -1,0 +1,22 @@
+create a table and display work hours and save buttons and input rows (W6 03-ajax-to-html table structure)
+input rows with the hour and save buttons (add event listener) to table
+rows to input information (W4 25-Stu_Render-Todos)
+store in local storage when save is pressed
+change color based on time (Past, present, future) (W5 - 03-jQueryGenerators)
+need individual inputs for each time block
+display current date at the top
+
+Momentjs.com > used to help format the dat and time.
+
+date.now()  returns the current date in isodate format.
+
+Homework should be done using all jquery
+
+create table in html and use jquery to append data into the rows.
+let table = $('<table>'); = create table
+let table = $('table'); = search for table (behaves more like querySelectorAll, not querySelector)
+
+
+or create the entire table in JS and append to the dom
+
+api.jquery.com
