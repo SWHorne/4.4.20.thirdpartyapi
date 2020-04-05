@@ -4,6 +4,7 @@ body {
   line-height: 1;
 }
 
+
 textarea{
   background: transparent;
   /* border: none; */
@@ -21,15 +22,18 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.table {
-  padding: 3px;
+.table td {
+  padding: 2px;
+  vertical-align: middle;
+  padding: 2px;
 }
 
-.description{
+/* .description{
   white-space: pre-wrap;
-}
+} */
 
 .time-block{
+  vertical-align: middle;
   text-align: center;
   border-radius: 15px;
 }
@@ -38,10 +42,10 @@ textarea{
   /* white-space: pre-wrap; */
   height: 80px;
   border: 1px solid grey;
-}
-
-.leftColumn .centerColumn .rightColumn {
-padding: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  display: table-row;
+  padding: 2px;
 }
 
 .header-row {
@@ -50,10 +54,39 @@ padding: 2px;
   padding: 2px;
 }
 
+.leftColumn {
+  vertical-align: middle;
+  text-align: center;
+  padding: 2px;
+}
+
+.centerColumn {
+  text-align: left;
+  padding: 2px;
+}
+
+.rightColumn {
+  text-align: right;
+  padding: 2px;
+}
+
 .hour {
+  vertical-align: middle;
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px solid #000000;
+}
+
+.leftcol {
+  padding: 2px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+
+.tdSave {
+  margin-right: -15;  
 }
 
 .past {
@@ -79,6 +112,11 @@ padding: 2px;
   color: white;
   height: 80px;
   width: 80px;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
 }
 
 .saveBtn i:hover {
