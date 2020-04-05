@@ -6,11 +6,11 @@ body {
 
 textarea{
   background: transparent;
-  border: none;
+  /* border: none; */
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  border: 1px solid black;
+  padding: 1px;
 }
 
 .jumbotron {
@@ -19,6 +19,10 @@ textarea{
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+}
+
+.table {
+  padding: 3px;
 }
 
 .description{
@@ -31,9 +35,19 @@ textarea{
 }
 
 .row {
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   height: 80px;
-  border-top: 1px solid white;;
+  border: 1px solid grey;
+}
+
+.leftColumn .centerColumn .rightColumn {
+padding: 2px;
+}
+
+.header-row {
+  height: 5px;
+  border: 1px solid white;
+  padding: 2px;
 }
 
 .hour {
@@ -63,6 +77,8 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  height: 80px;
+  width: 80px;
 }
 
 .saveBtn i:hover {
